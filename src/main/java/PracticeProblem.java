@@ -12,10 +12,10 @@ public class PracticeProblem {
 	}
 
 	public static String evenOrOdd(int num) {
-	    if (num%2==0) {
-	        return "Even";
-	    } else if (num==0) {
+	    if (num==0) {
 	        return "Zero";
+	    } else if (num%2==0) {
+	        return "Even";
 	    }
 	    return "Odd";
 	}
